@@ -6,7 +6,7 @@
 However, it is not fully compatible with MacOS.<br>
 I tried many different ways, and actually managed it to work as a native app, using [this tutorial](https://sites.google.com/a/brianrhall.net/www/rss/installingsasmonamac) by Brian R. Hall. However, this method works only with 64-bit programs, since Apple has now deprecated 32-bit compilation on newer releases of MacOS.
 
-The [SASMac Launcher](SASMac.Launcher) is a simple script that will handle all the installation process of SASM using Docker and a X11 server.
+The [SASMac Launcher](SASMac%20Launcher) is a simple script that will handle all the installation process of SASM using Docker and a X11 server.
 
 ## How to use
 
