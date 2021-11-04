@@ -1,4 +1,4 @@
-#!/usr/bin/env bash 
+#!/bin/zsh
 # Written by Alexander Perathoner
 # 	with the help of
 #	~Leon from Mac Support@TUM
@@ -10,6 +10,16 @@ then
     echo "Docker could not be found. Please install docker first: https://docs.docker.com/desktop/mac/install/"
     exit
 fi
+
+echo "Starting Docker Desktop if not already running..."
+osascript -e "tell application \"Docker\" to activate"
+
+while [ ! $(docker stats --no-stream) ]
+do	
+	echo "The Docker Engine is not running yet. Please wait..."
+	sleep 1
+done
+echo "The Docker Engine is now running."
 
 if ! command -v xquartz &> /dev/null
 then
