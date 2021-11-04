@@ -41,7 +41,7 @@ then
 elif [ ! "$(docker ps -aq -f status=exited -f name=sasm)" ]
 then
 	echo "Creating permament Docker container..."
-	docker run -e DISPLAY=$IP:0 -d -i -t -v ~:/Mac --name sasm ubuntu #adding shared filesystem to access documents on mac
+	docker run -e DISPLAY=$IP:0 -d -i -t -v ~/:/Mac --name sasm ubuntu #adding shared filesystem to access documents on mac
 	echo "Docker container created. You can now find it in the Docker Desktop app as well."
 
 	echo "Installing necessary packages in the container..."
