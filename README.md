@@ -1,5 +1,5 @@
 # SASMac
--
+---
 
 [SASM](http://dman95.github.io/SASM/) is crossplatform IDE for NASM, MASM, GAS and FASM assembly languages.
 
@@ -10,7 +10,7 @@ The [SASMac Launcher](SASMac\ Launcher) is a simple script that will handle all 
 
 Tip: you can add the script directly in the Application folder to make it look like an app.
 
--
+---
 Thanks to
 
 - ~Leon from Mac Support@TUM
@@ -19,7 +19,7 @@ Thanks to
 - Many many StackOverflow users C:
 - Sveinbjorn Thordarson
 
--
+---
 
 **Disclaimer**:<br>
-I haven't written a line of SASM, just part of this tool to get it running on Mac. All the credit for that goes to [Dmitriy Manushin](https://github.com/Dman95/SASM), while the native MacOS app was built using [Platypus](https://sveinbjorn.org/platypus) by Sveinbjorn Thordarson. Go check them out.
+I haven't written a line of SASM, just part of this tool to get it running on Mac. All the credit for that goes to [Dmitriy Manushin](https://github.com/Dman95/SASM).
